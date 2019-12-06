@@ -1,0 +1,49 @@
+<div class="accordion reports" id="accordionExample">
+
+    <h3 class="mb-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      Aggregate Reports
+    </h3>
+    <hr />
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <ul class="row mx-0">
+          <li *ngFor="let item of aggregateReportItems; let i = index" class="text-capitalize list-style-none col-md-6">
+            <a routerLink="/reports/summary">{{item}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <br />
+    <h3 class="mb-0 collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+      aria-controls="collapseTwo">
+      Transaction Reports
+    </h3>
+    <hr />
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <ul class="row mx-0">
+          <li *ngFor="let item of transactionReportItems;let i = index" class="text-capitalize list-style-none col-md-6">
+            <a href="">{{item}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <br />
+    <h3 class="mb-0 collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+      aria-controls="collapseThree">
+      Generate Email Reports
+    </h3>
+    <hr />
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <ul class="row mx-0">
+          <li class="text-capitalize list-style-none col-12">
+            <a href="">Generate Report</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
