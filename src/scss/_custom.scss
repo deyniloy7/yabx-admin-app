@@ -23,7 +23,12 @@
 
 
 .sidebar {
-  background: linear-gradient(0deg, black, #5c6873) !important;
+  // background: linear-gradient(0deg, black, #5c6873) !important;
+  background: var(--sidebar-background);
+}
+
+.app-footer {
+  background:var(--footer-background);
 }
 
 .reports {

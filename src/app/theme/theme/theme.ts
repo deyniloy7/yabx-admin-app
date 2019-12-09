@@ -11,6 +11,8 @@ export const light: Theme = {
     '--foreground-tertiary': '#797C80',
     '--foreground-quaternary': '#F4FAFF',
     '--foreground-light': '#41474D',
+    '--sidebar-background': '#ce0000',
+    '--footer-background': '#ce000040',
 
     '--background-default': '#F4FAFF',
     '--background-secondary': '#A3B9CC',
@@ -37,6 +39,8 @@ export const dark: Theme = {
     '--foreground-tertiary': '#F4FAFF',
     '--foreground-quaternary': '#E5E5E5',
     '--foreground-light': '#FFFFFF',
+    '--sidebar-background': '#000000',
+    '--footer-background': '#00000040',
 
     '--background-default': '#797C80',
     '--background-secondary': '#41474D',

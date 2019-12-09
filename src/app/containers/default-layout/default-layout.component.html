@@ -347,7 +347,7 @@
   <span><a href="https://coreui.io">YABX</a> &copy; 2018 creativeLabs.</span>
 
   <span class="ml-auto">Powered by <a href="https://coreui.io/angular">YABX</a></span>
-  <select class="custom-select custom-select-sm">
+  <select class="custom-select custom-select-sm" (change)="toggleTheme($event)">
       <option selected value="yabx">Yabx</option>
       <option value="airtel">Airtel</option>
   </select>
